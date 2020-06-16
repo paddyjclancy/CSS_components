@@ -1,0 +1,16 @@
+.banner {
+	background-image: url(https://images.unsplash.com/photo-1517937744400-363020dac79f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	height: 80vh;
+	background-size: cover;
+}
+
+.banner-flex{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background-color: rgba(230, 230, 230, 0.05);
+}
+
+.banner-white-text {
+	color: white;
+}
