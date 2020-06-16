@@ -1,0 +1,30 @@
+
+.btn-red {
+	background-color: red;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: ease 0.8s;
+	opacity: 0.8;
+}
+
+.btn-red:hover {
+	opacity: 1;
+	box-shadow: 1px 3px rgba(30, 30, 30, 0.7);
+}
+
+.btn-blue {
+	background-color: #2087E5; 
+	color: white;
+	padding: 8px 40px;
+	border-radius: 3px;
+	font-weight: bolder;
+}
+
+.btn-blue-tr {
+	background-color: 
+	color: blue;
+	padding: 8px 40px;
+	border: solid 2.5px blue;
+	border-radius: 4px;
+}
