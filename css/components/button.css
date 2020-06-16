@@ -8,7 +8,7 @@
 	opacity: 0.8;
 }
 
-.btn-red:hover {
+.btn-red:hover, .btn-blue:hover, .btn-blue-tr:hover {
 	opacity: 1;
 	box-shadow: 1px 3px rgba(30, 30, 30, 0.7);
 }
@@ -19,6 +19,8 @@
 	padding: 8px 40px;
 	border-radius: 3px;
 	font-weight: bolder;
+	opacity: 0.85;
+	transition: ease 0.8s;
 }
 
 .btn-blue-tr {
@@ -27,4 +29,6 @@
 	padding: 8px 40px;
 	border: solid 2.5px blue;
 	border-radius: 4px;
+	opacity: 0.85;
+	transition: ease 0.8s;
 }
