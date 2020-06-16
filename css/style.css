@@ -1,0 +1,39 @@
+
+/* Import all individual components */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+@import url('components/button.css');
+
+/* Set css style for general / all pages */
+
+.container {
+	width: 600px;
+	margin: 35px auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+body, p {
+	font-family: 'Lato', sans-serif;
+	color: rgba(40, 40, 40, 0.9);
+}
+
+h1, h2, h3 {
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(40, 40, 40, 1);
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h2, h3 {
+	font-weight: light;
+}
+
+a {
+	text-decoration: none;
+	margin-left: 0px
+}
